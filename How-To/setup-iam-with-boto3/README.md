@@ -41,4 +41,7 @@ iam.update_user(
 iam.delete_user(
     UserName='Valaxy-User-01'
 )
-```
+Main terminal :
+
+```aws iam delete-user --user-name  Valaxy-Demo-User
+
