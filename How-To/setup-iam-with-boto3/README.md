@@ -12,7 +12,8 @@ response = iam.create_user(
     UserName='Valaxy-Demo-User'
 )
 
-print(response)
+print(response)   or response['User']['Arn']
+
 ```
 
 # List Users in Your Account
