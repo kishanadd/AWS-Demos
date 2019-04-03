@@ -14,6 +14,11 @@ response = iam.create_user(
 
 print(response)   or response['User']['Arn']
 
+'arn:aws:iam::7779389:user/Valaxy-Demo-User'
+
+
+
+
 ```
 
 # List Users in Your Account
