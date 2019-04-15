@@ -37,6 +37,7 @@ pip install awscli --upgrade --user
 ```
 aws --version
 ```
+pip install boto3
 
 #### To configure aws cli run `aws configure`
 You will be prompted to enter four items. Paste in the two keys, and enter your preferred region, say `ap-south-1` and json for the final prompts as shown.
